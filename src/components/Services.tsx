@@ -91,9 +91,15 @@ const Services = () => {
                 ))}
               </ul>
 
-              <Button variant="ghost" className="text-primary hover:text-secondary group/btn p-0">
-                Saiba mais
-                <ArrowRight className="ml-2 group-hover/btn:translate-x-1 transition-transform" size={18} />
+              <Button 
+                variant="ghost" 
+                className="text-primary hover:text-secondary group/btn p-0"
+                asChild
+              >
+                <a href="https://w.app/pf2mue" target="_blank" rel="noopener noreferrer">
+                  Saiba mais
+                  <ArrowRight className="ml-2 group-hover/btn:translate-x-1 transition-transform" size={18} />
+                </a>
               </Button>
             </motion.div>
           ))}
