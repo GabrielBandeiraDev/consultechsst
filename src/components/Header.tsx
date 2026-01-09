@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
+import logoConsultech from "@/assets/logo-consultech.png";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -22,13 +23,8 @@ const Header = () => {
     >
       <div className="container-custom">
         <div className="flex items-center justify-between h-20">
-          <a href="#inicio" className="flex items-center gap-2">
-            <div className="w-10 h-10 rounded-lg bg-gradient-tech flex items-center justify-center">
-              <span className="text-primary-foreground font-bold text-lg">C</span>
-            </div>
-            <span className="font-bold text-xl text-foreground">
-              Consul<span className="text-gradient">Tech</span> SST
-            </span>
+          <a href="#inicio" className="flex items-center">
+            <img src={logoConsultech} alt="ConsulTech SST" className="h-10" />
           </a>
 
           {/* Desktop Navigation */}
