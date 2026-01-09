@@ -80,10 +80,12 @@ const Hero = () => {
             transition={{ duration: 0.8, delay: 0.3 }}
             className="flex flex-wrap gap-4 mb-16"
           >
-            <Button size="lg" className="bg-gradient-tech hover:opacity-90 text-primary-foreground shadow-elevated group">
-              Fale Conosco
-              <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" size={18} />
-            </Button>
+            <a href="https://w.app/pf2mue" target="_blank" rel="noopener noreferrer">
+              <Button size="lg" className="bg-gradient-tech hover:opacity-90 text-primary-foreground shadow-elevated group">
+                Fale Conosco
+                <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" size={18} />
+              </Button>
+            </a>
             <Button size="lg" variant="outline" className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10">
               Conheça Nossos Serviços
             </Button>
