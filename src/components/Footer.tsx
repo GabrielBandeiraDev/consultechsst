@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import logoConsultech from "@/assets/logo-consultech.png";
 
 const Footer = () => {
   return (
@@ -11,13 +12,8 @@ const Footer = () => {
           transition={{ duration: 0.6 }}
           className="flex flex-col md:flex-row items-center justify-between gap-6"
         >
-          <div className="flex items-center gap-2">
-            <div className="w-10 h-10 rounded-lg bg-gradient-tech flex items-center justify-center">
-              <span className="text-primary-foreground font-bold text-lg">C</span>
-            </div>
-            <span className="font-bold text-xl text-background">
-              ConsulTech SST
-            </span>
+          <div className="flex items-center">
+            <img src={logoConsultech} alt="ConsulTech SST" className="h-10 brightness-0 invert" />
           </div>
 
           <nav className="flex flex-wrap justify-center gap-6">
