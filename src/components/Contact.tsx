@@ -14,14 +14,14 @@ const Contact = () => {
     },
     {
       icon: Phone,
-      label: "Telefone",
-      value: "(11) 99999-9999",
-      href: "tel:+5511999999999",
+      label: "WhatsApp",
+      value: "(92) 98599-7836",
+      href: "https://w.app/pf2mue",
     },
     {
       icon: MapPin,
       label: "Localização",
-      value: "São Paulo, SP",
+      value: "Manaus, AM",
       href: "#",
     },
   ];
